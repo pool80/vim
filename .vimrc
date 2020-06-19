@@ -29,13 +29,20 @@ set tabstop=4
 set shiftwidth=4
 
 "insert spaces or tabs to go to the next indent of the next tabstop when the cursor is at the beginning of a line
-"set smarttab
+set smarttab
 
 "insert spaces instead of tab characters
 set expandtab
 
 "переносить длинные строки
 set wrap
+
+"копирует отступы с текущей строки при добавлении новой
+"отступ ставится после строки, которая заканчивается символом {
+"перед строкой, которая заканчивается символом }
+"удаляется перед символом #, если он следует первым в строке и т.д.
+"(подробнее help 'smartindent').
+set smartindent
 
 "включим автоотступы для новых строк
 "set ai
