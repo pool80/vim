@@ -25,7 +25,8 @@ set ignorecase
 "количество пробелов, которыми символ табуляции отображается в тексте
 set tabstop=4
 
-"change the number of space
+"по умолчанию используется для регулирование ширины отступов в пробелах,
+"добавляемых командами >> и <<
 set shiftwidth=4
 
 "insert spaces or tabs to go to the next indent of the next tabstop when the cursor is at the beginning of a line
