@@ -22,7 +22,7 @@ set ignorecase
 "Show line numbers
 "set number
 
-"tab = 4
+"количество пробелов, которыми символ табуляции отображается в тексте
 set tabstop=4
 
 "change the number of space
