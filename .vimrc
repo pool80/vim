@@ -10,9 +10,6 @@ set encoding=utf-8
 "Отключает обратную совместимость с Vi
 set nocompatible
 
-"Включает подсветку синтаксиса
-syntax enable
-
 "color on
 syntax on
 
